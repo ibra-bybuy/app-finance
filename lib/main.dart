@@ -19,7 +19,6 @@ import 'package:app_finance/_configs/custom_color_scheme.dart';
 import 'package:app_finance/_configs/custom_text_theme.dart';
 import 'package:app_finance/_classes/storage/app_data.dart';
 import 'package:app_finance/_classes/structure/navigation/app_route.dart';
-import 'package:app_finance/_configs/firebase_options.dart';
 import 'package:app_finance/l10n/app_localization.dart';
 import 'package:app_finance/pages/about/about_page.dart';
 import 'package:app_finance/pages/account/account_add_page.dart';
@@ -56,9 +55,6 @@ import 'package:app_finance/pages/metrics/metrics_page.dart';
 import 'package:app_finance/pages/settings/settings_page.dart';
 import 'package:app_finance/pages/start/start_page.dart';
 import 'package:app_finance/pages/subscription/subscription_page.dart';
-import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_currency_picker/flutter_currency_picker.dart';
@@ -66,28 +62,18 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
-  final platform = DefaultFirebaseOptions.currentPlatform;
   runZonedGuarded<Future<void>>(() async {
     WidgetsFlutterBinding.ensureInitialized();
-    if (platform != null) {
-      await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-      FirebaseAnalytics.instance.logAppOpen();
-      PlatformDispatcher.instance.onError = (error, stack) {
-        FirebaseAnalytics.instance.logEvent(
-          name: 'platform-error',
-          parameters: {'error': error.toString(), 'trace': stack.toString()},
-        );
-        return true;
+
+    PlatformDispatcher.instance.onError = (error, stack) {
+      return true;
+    };
+    if (kIsWeb) {
+      FlutterError.onError = (details) {
+        FlutterError.presentError(details);
       };
-      if (kIsWeb) {
-        FlutterError.onError = (details) {
-          FlutterError.presentError(details);
-          FirebaseAnalytics.instance.logEvent(name: 'flutter-error', parameters: {'error': details.toString()});
-        };
-      } else {
-        FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
-      }
     }
+
     AppPreferences.pref = await SharedPreferences.getInstance();
     CurrencyDefaults.cache = AppPreferences.pref;
     final appSync = AppSync();
@@ -125,25 +111,17 @@ void main() async {
             create: (_) => AppStartOfMonth(),
           ),
         ],
-        child: MyApp(platform: platform),
+        child: MyApp(),
       ),
     );
   }, (error, stack) {
-    if (platform != null) {
-      if (kIsWeb) {
-        FirebaseAnalytics.instance.logEvent(name: 'flutter-error', parameters: {'error': error.toString()});
-      } else {
-        FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
-      }
-    }
     FlutterError.presentError(FlutterErrorDetails(exception: error, stack: stack));
     // SystemNavigator.pop();
   });
 }
 
 class MyApp extends StatefulWidget {
-  final FirebaseOptions? platform;
-  const MyApp({super.key, this.platform});
+  const MyApp({super.key});
 
   @override
   MyAppState createState() => MyAppState();
@@ -155,12 +133,6 @@ class MyAppState extends State<MyApp> {
     final args = arguments as Map<String, dynamic>?;
     final String key = args?['uuid'] ?? args?['search'] ?? '';
     final int focus = args?['focus'] ?? 1;
-    if (widget.platform != null) {
-      FirebaseAnalytics.instance.logScreenView(
-        screenName: route,
-        parameters: args?.cast(),
-      );
-    }
 
     Widget router(String route) => switch (route) {
           AppRoute.aboutRoute => AboutPage(search: key),

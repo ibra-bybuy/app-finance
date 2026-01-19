@@ -3,11 +3,7 @@
 
 import 'dart:math';
 
-import 'package:flutter/material.dart';
-
 extension IntExt on int {
-  IconData toIcon() => IconData(this, fontFamily: 'MaterialIcons');
-
   String toByteSize() {
     const sizes = ['B', 'KB', 'MB', 'GB', 'TB'];
     if (this == 0) return '0 B';

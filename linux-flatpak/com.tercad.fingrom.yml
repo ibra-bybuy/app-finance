@@ -1,4 +1,4 @@
-app-id: com.tercad.fingrom
+app-id: com.faust.finance
 runtime: org.gnome.Platform
 runtime-version: "49"
 sdk: org.gnome.Sdk

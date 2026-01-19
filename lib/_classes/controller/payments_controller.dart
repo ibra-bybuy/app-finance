@@ -84,7 +84,7 @@ class PaymentsController {
     );
     if (Platform.isAndroid) {
       await HomeWidget.updateWidget(
-        qualifiedAndroidName: 'com.tercad.fingrom.PaymentsWidgetService',
+        qualifiedAndroidName: 'com.faust.finance.PaymentsWidgetService',
       );
     }
   }

@@ -6,7 +6,6 @@ import 'package:app_finance/_classes/structure/abstract_app_data.dart';
 import 'package:app_finance/_classes/storage/app_data.dart';
 import 'package:app_finance/_configs/account_type.dart';
 import 'package:app_finance/_ext/date_time_ext.dart';
-import 'package:app_finance/_ext/int_ext.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_currency_picker/flutter_currency_picker.dart';
 
@@ -67,7 +66,6 @@ class AccountAppData extends AbstractAppData {
       progress: 0.0 + json['progress'],
       description: json['description'],
       color: json['color'] != null ? MaterialColor(json['color'], const <int, Color>{}) : null,
-      icon: (json['icon'] as int?)?.toIcon(),
       currency: CurrencyProvider.find(json['currency']),
       createdAt: DateTime.parse(json['createdAt']),
       updatedAt: DateTime.parse(json['updatedAt']),

@@ -1,4 +1,4 @@
-package com.tercad.fingrom
+package com.faust.finance
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -3,7 +3,7 @@ version: 1
 AppDir:
   path: AppDir
   app_info:
-    id: com.tercad.fingrom
+    id: com.faust.finance
     name: Fingrom
     icon: com.tercad.fingrom.svg
     version: 1.0.0

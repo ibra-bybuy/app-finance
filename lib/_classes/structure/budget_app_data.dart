@@ -10,7 +10,6 @@ import 'package:app_finance/_classes/structure/currency/exchange.dart';
 import 'package:app_finance/_classes/structure/invoice_app_data.dart';
 import 'package:app_finance/_configs/budget_type.dart';
 import 'package:app_finance/_ext/date_time_ext.dart';
-import 'package:app_finance/_ext/int_ext.dart';
 import 'package:app_finance/_ext/string_ext.dart';
 import 'package:app_finance/_mixins/storage_mixin.dart';
 import 'package:flutter/material.dart';
@@ -74,7 +73,6 @@ class BudgetAppData extends AbstractAppData with StorageMixin {
       uuid: json['uuid'],
       progress: 0.0 + json['progress'],
       color: json['color'] != null ? MaterialColor(json['color'], const <int, Color>{}) : null,
-      icon: (json['icon'] as int?)?.toIcon(),
       currency: CurrencyProvider.find(json['currency']),
       updatedAt: DateTime.parse(json['updatedAt']),
       createdAt: DateTime.parse(json['createdAt']),

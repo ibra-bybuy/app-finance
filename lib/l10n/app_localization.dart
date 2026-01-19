@@ -22,6 +22,7 @@ import 'app_localization_nl.dart';
 import 'app_localization_pl.dart';
 import 'app_localization_pt.dart';
 import 'app_localization_ro.dart';
+import 'app_localization_ru.dart';
 import 'app_localization_tr.dart';
 import 'app_localization_uk.dart';
 import 'app_localization_uz.dart';
@@ -134,6 +135,7 @@ abstract class AppLocalizations {
     Locale('nl'),
     Locale('cs'),
     Locale('ro'),
+    Locale('ru'),
     Locale('be', 'EU'),
     Locale('pt', 'BR'),
     Locale('zh', 'TW')
@@ -141,1970 +143,1970 @@ abstract class AppLocalizations {
 
   /// No description provided for @a.
   ///
-  /// In en, this message translates to:
-  /// **'RUN `dart run grinder sort-translations --quiet` FOR ORDERING'**
+  /// In ru, this message translates to:
+  /// **'Запустить `dart run grinder sort-translations --quiet` для сортировки'**
   String get a;
 
   /// No description provided for @aboutHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'About'**
+  /// In ru, this message translates to:
+  /// **'О сервисе'**
   String get aboutHeadline;
 
   /// No description provided for @account.
   ///
-  /// In en, this message translates to:
-  /// **'Account'**
+  /// In ru, this message translates to:
+  /// **'Профиль'**
   String get account;
 
   /// No description provided for @accountFrom.
   ///
-  /// In en, this message translates to:
-  /// **'From Account'**
+  /// In ru, this message translates to:
+  /// **'Из профиля'**
   String get accountFrom;
 
   /// No description provided for @accountHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Accounts'**
+  /// In ru, this message translates to:
+  /// **'Профили'**
   String get accountHeadline;
 
   /// No description provided for @accountTo.
   ///
-  /// In en, this message translates to:
-  /// **'To Account'**
+  /// In ru, this message translates to:
+  /// **'В профиль'**
   String get accountTo;
 
   /// No description provided for @accountTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Open Accounts'**
+  /// In ru, this message translates to:
+  /// **'Открыть профили'**
   String get accountTooltip;
 
   /// No description provided for @accountType.
   ///
-  /// In en, this message translates to:
-  /// **'Account Type'**
+  /// In ru, this message translates to:
+  /// **'Тип профиля'**
   String get accountType;
 
   /// No description provided for @accountTypeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Choose Account Type'**
+  /// In ru, this message translates to:
+  /// **'Выбрать тип профиля'**
   String get accountTypeTooltip;
 
   /// No description provided for @acknowledgeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Acknowledge'**
+  /// In ru, this message translates to:
+  /// **'Подтвердить'**
   String get acknowledgeTooltip;
 
   /// No description provided for @activate.
   ///
-  /// In en, this message translates to:
-  /// **'Activate'**
+  /// In ru, this message translates to:
+  /// **'Активировать'**
   String get activate;
 
   /// No description provided for @actualData.
   ///
-  /// In en, this message translates to:
-  /// **'Historical Data'**
+  /// In ru, this message translates to:
+  /// **'Исторические данные'**
   String get actualData;
 
   /// No description provided for @addAccountTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add Account'**
+  /// In ru, this message translates to:
+  /// **'Добавить профиль'**
   String get addAccountTooltip;
 
   /// No description provided for @addBudgetTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add new Budget Category'**
+  /// In ru, this message translates to:
+  /// **'Добавить новую категорию бюджета'**
   String get addBudgetTooltip;
 
   /// No description provided for @addGoalTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add new Goal'**
+  /// In ru, this message translates to:
+  /// **'Добавить новую цель'**
   String get addGoalTooltip;
 
   /// No description provided for @addMainTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add Bill , Income or Transfer'**
+  /// In ru, this message translates to:
+  /// **'Добавить счёт, доход или перевод'**
   String get addMainTooltip;
 
   /// No description provided for @afterNDays.
   ///
-  /// In en, this message translates to:
-  /// **'after {value} days'**
+  /// In ru, this message translates to:
+  /// **'через {value} дней'**
   String afterNDays(Object value);
 
   /// No description provided for @amountFrom.
   ///
-  /// In en, this message translates to:
-  /// **'From Amount'**
+  /// In ru, this message translates to:
+  /// **'Сумма от'**
   String get amountFrom;
 
   /// No description provided for @amountTo.
   ///
-  /// In en, this message translates to:
-  /// **'To Amount'**
+  /// In ru, this message translates to:
+  /// **'Сумма до'**
   String get amountTo;
 
   /// No description provided for @appBuild.
   ///
-  /// In en, this message translates to:
-  /// **'Build: {build}'**
+  /// In ru, this message translates to:
+  /// **'Сборка: {build}'**
   String appBuild(Object build);
 
   /// No description provided for @appInitHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Project Initialization'**
+  /// In ru, this message translates to:
+  /// **'Инициализация приложения'**
   String get appInitHeadline;
 
   /// No description provided for @appStartHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Initial Setup'**
+  /// In ru, this message translates to:
+  /// **'Первый запуск'**
   String get appStartHeadline;
 
   /// No description provided for @appTitle.
   ///
-  /// In en, this message translates to:
-  /// **'Fingrom'**
+  /// In ru, this message translates to:
+  /// **'Финансы'**
   String get appTitle;
 
   /// No description provided for @appVersion.
   ///
-  /// In en, this message translates to:
-  /// **'Version: {version}'**
+  /// In ru, this message translates to:
+  /// **'Версия: {version}'**
   String appVersion(Object version);
 
   /// No description provided for @automationHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Automation'**
+  /// In ru, this message translates to:
+  /// **'Автоматизация'**
   String get automationHeadline;
 
   /// No description provided for @automationTypeDays.
   ///
-  /// In en, this message translates to:
-  /// **'after some days'**
+  /// In ru, this message translates to:
+  /// **'через несколько дней'**
   String get automationTypeDays;
 
   /// No description provided for @backTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Return back'**
+  /// In ru, this message translates to:
+  /// **'Вернуться назад'**
   String get backTooltip;
 
   /// No description provided for @balance.
   ///
-  /// In en, this message translates to:
-  /// **'Actual Balance'**
+  /// In ru, this message translates to:
+  /// **'Текущий баланс'**
   String get balance;
 
   /// No description provided for @balanceDate.
   ///
-  /// In en, this message translates to:
-  /// **'Balance Date Update'**
+  /// In ru, this message translates to:
+  /// **'Дата расчёта баланса'**
   String get balanceDate;
 
   /// No description provided for @balanceDateTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Outcomes and Incomes before this date won\'t affect the balance'**
+  /// In ru, this message translates to:
+  /// **'Доходы и расходы до этой даты не влияют на баланс'**
   String get balanceDateTooltip;
 
   /// No description provided for @balanceTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Set Balance'**
+  /// In ru, this message translates to:
+  /// **'Установить баланс'**
   String get balanceTooltip;
 
   /// No description provided for @bankAccount.
   ///
-  /// In en, this message translates to:
-  /// **'Bank Account'**
+  /// In ru, this message translates to:
+  /// **'Банковский счёт'**
   String get bankAccount;
 
   /// No description provided for @bill.
   ///
-  /// In en, this message translates to:
-  /// **'Bill'**
+  /// In ru, this message translates to:
+  /// **'Операция'**
   String get bill;
 
   /// No description provided for @billHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Bills'**
+  /// In ru, this message translates to:
+  /// **'Операции'**
   String get billHeadline;
 
   /// No description provided for @billSetTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Set Amount'**
+  /// In ru, this message translates to:
+  /// **'Установить сумму'**
   String get billSetTooltip;
 
   /// No description provided for @billSum.
   ///
-  /// In en, this message translates to:
-  /// **'Bills: {value}'**
+  /// In ru, this message translates to:
+  /// **'Операции: {value}'**
   String billSum(Object value);
 
   /// No description provided for @billTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Open Bills'**
+  /// In ru, this message translates to:
+  /// **'Открыть операции'**
   String get billTooltip;
 
   /// No description provided for @billTypeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'[Type] Bill, Income or Transfer'**
+  /// In ru, this message translates to:
+  /// **'[Тип] Расход, доход или перевод'**
   String get billTypeTooltip;
 
   /// No description provided for @brightnessTheme.
   ///
-  /// In en, this message translates to:
-  /// **'Brightness Theme'**
+  /// In ru, this message translates to:
+  /// **'Яркость темы'**
   String get brightnessTheme;
 
   /// No description provided for @btnAdd.
   ///
-  /// In en, this message translates to:
-  /// **'Add'**
+  /// In ru, this message translates to:
+  /// **'Добавить'**
   String get btnAdd;
 
   /// No description provided for @btnCancel.
   ///
-  /// In en, this message translates to:
-  /// **'Cancel'**
+  /// In ru, this message translates to:
+  /// **'Отмена'**
   String get btnCancel;
 
   /// No description provided for @btnConfirm.
   ///
-  /// In en, this message translates to:
-  /// **'Confirm'**
+  /// In ru, this message translates to:
+  /// **'Подтвердить'**
   String get btnConfirm;
 
   /// No description provided for @btnMore.
   ///
-  /// In en, this message translates to:
-  /// **'More'**
+  /// In ru, this message translates to:
+  /// **'Ещё'**
   String get btnMore;
 
   /// No description provided for @budget.
   ///
-  /// In en, this message translates to:
-  /// **'Budget Category'**
+  /// In ru, this message translates to:
+  /// **'Категория бюджета'**
   String get budget;
 
   /// No description provided for @budgetHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Budgets'**
+  /// In ru, this message translates to:
+  /// **'Бюджеты'**
   String get budgetHeadline;
 
   /// No description provided for @budgetLimit.
   ///
-  /// In en, this message translates to:
-  /// **'Limit per Month'**
+  /// In ru, this message translates to:
+  /// **'Лимит в месяц'**
   String get budgetLimit;
 
   /// No description provided for @budgetLimitHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Limit Adjustments'**
+  /// In ru, this message translates to:
+  /// **'Настройка лимитов'**
   String get budgetLimitHeadline;
 
   /// No description provided for @budgetRelativeLimit.
   ///
-  /// In en, this message translates to:
-  /// **'Relative Coefficient per Month'**
+  /// In ru, this message translates to:
+  /// **'Относительный коэффициент в месяц'**
   String get budgetRelativeLimit;
 
   /// No description provided for @budgetTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Open Budget Types'**
+  /// In ru, this message translates to:
+  /// **'Открыть категории бюджета'**
   String get budgetTooltip;
 
   /// No description provided for @budgetType.
   ///
-  /// In en, this message translates to:
-  /// **'Budgeting Interval'**
+  /// In ru, this message translates to:
+  /// **'Период бюджета'**
   String get budgetType;
 
   /// No description provided for @budgetTypeAsIs.
   ///
-  /// In en, this message translates to:
-  /// **'Unlimited'**
+  /// In ru, this message translates to:
+  /// **'Без ограничений'**
   String get budgetTypeAsIs;
 
   /// No description provided for @budgetTypeFixed.
   ///
-  /// In en, this message translates to:
-  /// **'Fixed'**
+  /// In ru, this message translates to:
+  /// **'Фиксированный'**
   String get budgetTypeFixed;
 
   /// No description provided for @budgetTypeMonth.
   ///
-  /// In en, this message translates to:
-  /// **'monthly'**
+  /// In ru, this message translates to:
+  /// **'ежемесячно'**
   String get budgetTypeMonth;
 
   /// No description provided for @budgetTypeRelative.
   ///
-  /// In en, this message translates to:
-  /// **'Relative'**
+  /// In ru, this message translates to:
+  /// **'Относительный'**
   String get budgetTypeRelative;
 
   /// No description provided for @budgetTypeWeek.
   ///
-  /// In en, this message translates to:
-  /// **'weekly'**
+  /// In ru, this message translates to:
+  /// **'еженедельно'**
   String get budgetTypeWeek;
 
   /// No description provided for @budgetTypeYear.
   ///
-  /// In en, this message translates to:
-  /// **'yearly'**
+  /// In ru, this message translates to:
+  /// **'ежегодно'**
   String get budgetTypeYear;
 
   /// No description provided for @cash.
   ///
-  /// In en, this message translates to:
-  /// **'Cash'**
+  /// In ru, this message translates to:
+  /// **'Наличные'**
   String get cash;
 
   /// No description provided for @chartBarRace.
   ///
-  /// In en, this message translates to:
-  /// **'Bar Race for Categories'**
+  /// In ru, this message translates to:
+  /// **'Гонка столбцов по категориям'**
   String get chartBarRace;
 
   /// No description provided for @chartForecast.
   ///
-  /// In en, this message translates to:
-  /// **'Forecast Chart'**
+  /// In ru, this message translates to:
+  /// **'Прогноз'**
   String get chartForecast;
 
   /// No description provided for @chartOHLC.
   ///
-  /// In en, this message translates to:
-  /// **'Candlestick (OHLC) Chart'**
+  /// In ru, this message translates to:
+  /// **'Свечной график (OHLC)'**
   String get chartOHLC;
 
   /// No description provided for @chartYtdExpense.
   ///
-  /// In en, this message translates to:
-  /// **'YTD Expenses'**
+  /// In ru, this message translates to:
+  /// **'Расходы с начала года'**
   String get chartYtdExpense;
 
   /// No description provided for @clear.
   ///
-  /// In en, this message translates to:
-  /// **'Drop Value'**
+  /// In ru, this message translates to:
+  /// **'Очистить значение'**
   String get clear;
 
   /// No description provided for @closeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Close'**
+  /// In ru, this message translates to:
+  /// **'Закрыть'**
   String get closeTooltip;
 
   /// No description provided for @closedAt.
   ///
-  /// In en, this message translates to:
-  /// **'Finished till Date'**
+  /// In ru, this message translates to:
+  /// **'Завершено до даты'**
   String get closedAt;
 
   /// No description provided for @cmpChart.
   ///
-  /// In en, this message translates to:
-  /// **'Diagrams'**
+  /// In ru, this message translates to:
+  /// **'Диаграммы'**
   String get cmpChart;
 
   /// No description provided for @cmpRecent.
   ///
-  /// In en, this message translates to:
-  /// **'Recent Items'**
+  /// In ru, this message translates to:
+  /// **'Недавние'**
   String get cmpRecent;
 
   /// No description provided for @cmpRecentCount.
   ///
-  /// In en, this message translates to:
-  /// **'List Size'**
+  /// In ru, this message translates to:
+  /// **'Размер списка'**
   String get cmpRecentCount;
 
   /// No description provided for @coAuthor.
   ///
-  /// In en, this message translates to:
-  /// **'author'**
+  /// In ru, this message translates to:
+  /// **'автор'**
   String get coAuthor;
 
   /// No description provided for @coConsult.
   ///
-  /// In en, this message translates to:
-  /// **'advisor'**
+  /// In ru, this message translates to:
+  /// **'консультант'**
   String get coConsult;
 
   /// No description provided for @coDeveloper.
   ///
-  /// In en, this message translates to:
-  /// **'developer'**
+  /// In ru, this message translates to:
+  /// **'разработчик'**
   String get coDeveloper;
 
   /// No description provided for @coNew.
   ///
-  /// In en, this message translates to:
-  /// **'Join'**
+  /// In ru, this message translates to:
+  /// **'Присоединиться'**
   String get coNew;
 
   /// No description provided for @coPromoter.
   ///
-  /// In en, this message translates to:
-  /// **'promoter'**
+  /// In ru, this message translates to:
+  /// **'промоутер'**
   String get coPromoter;
 
   /// No description provided for @coTranslator.
   ///
-  /// In en, this message translates to:
-  /// **'translator'**
+  /// In ru, this message translates to:
+  /// **'переводчик'**
   String get coTranslator;
 
   /// No description provided for @coef.
   ///
-  /// In en, this message translates to:
-  /// **'coef.'**
+  /// In ru, this message translates to:
+  /// **'коэф.'**
   String get coef;
 
   /// No description provided for @collapse.
   ///
-  /// In en, this message translates to:
-  /// **'Collapse (Restore) Section'**
+  /// In ru, this message translates to:
+  /// **'Свернуть (восстановить) раздел'**
   String get collapse;
 
   /// No description provided for @color.
   ///
-  /// In en, this message translates to:
-  /// **'Color'**
+  /// In ru, this message translates to:
+  /// **'Цвет'**
   String get color;
 
   /// No description provided for @colorApp.
   ///
-  /// In en, this message translates to:
-  /// **'Custom'**
+  /// In ru, this message translates to:
+  /// **'Пользовательская'**
   String get colorApp;
 
   /// No description provided for @colorBackground.
   ///
-  /// In en, this message translates to:
-  /// **'Background'**
+  /// In ru, this message translates to:
+  /// **'Фон'**
   String get colorBackground;
 
   /// No description provided for @colorDark.
   ///
-  /// In en, this message translates to:
-  /// **'Dark'**
+  /// In ru, this message translates to:
+  /// **'Тёмная'**
   String get colorDark;
 
   /// No description provided for @colorInversePrimary.
   ///
-  /// In en, this message translates to:
-  /// **'Inverse Primary'**
+  /// In ru, this message translates to:
+  /// **'Инверсный основной'**
   String get colorInversePrimary;
 
   /// No description provided for @colorInverseSurface.
   ///
-  /// In en, this message translates to:
-  /// **'Inverse Surface'**
+  /// In ru, this message translates to:
+  /// **'Инверсная поверхность'**
   String get colorInverseSurface;
 
   /// No description provided for @colorLight.
   ///
-  /// In en, this message translates to:
-  /// **'Light'**
+  /// In ru, this message translates to:
+  /// **'Светлая'**
   String get colorLight;
 
   /// No description provided for @colorOnInverseSurface.
   ///
-  /// In en, this message translates to:
-  /// **'On Inverse Surface'**
+  /// In ru, this message translates to:
+  /// **'Текст на инверсной поверхности'**
   String get colorOnInverseSurface;
 
   /// No description provided for @colorOnSecondary.
   ///
-  /// In en, this message translates to:
-  /// **'On Secondary'**
+  /// In ru, this message translates to:
+  /// **'Текст на вторичном'**
   String get colorOnSecondary;
 
   /// No description provided for @colorOnSecondaryContainer.
   ///
-  /// In en, this message translates to:
-  /// **'On Container'**
+  /// In ru, this message translates to:
+  /// **'Текст на контейнере'**
   String get colorOnSecondaryContainer;
 
   /// No description provided for @colorPrimary.
   ///
-  /// In en, this message translates to:
-  /// **'Primary'**
+  /// In ru, this message translates to:
+  /// **'Основной'**
   String get colorPrimary;
 
   /// No description provided for @colorRestore.
   ///
-  /// In en, this message translates to:
-  /// **'Reset Palette'**
+  /// In ru, this message translates to:
+  /// **'Сбросить палитру'**
   String get colorRestore;
 
   /// No description provided for @colorSecondary.
   ///
-  /// In en, this message translates to:
-  /// **'Secondary'**
+  /// In ru, this message translates to:
+  /// **'Вторичный'**
   String get colorSecondary;
 
   /// No description provided for @colorSystem.
   ///
-  /// In en, this message translates to:
-  /// **'Default'**
+  /// In ru, this message translates to:
+  /// **'Системная'**
   String get colorSystem;
 
   /// No description provided for @colorTheme.
   ///
-  /// In en, this message translates to:
-  /// **'Palette'**
+  /// In ru, this message translates to:
+  /// **'Палитра'**
   String get colorTheme;
 
   /// No description provided for @colorTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Select a Color'**
+  /// In ru, this message translates to:
+  /// **'Выбрать цвет'**
   String get colorTooltip;
 
   /// No description provided for @colorType.
   ///
-  /// In en, this message translates to:
-  /// **'Color Type'**
+  /// In ru, this message translates to:
+  /// **'Тип цвета'**
   String get colorType;
 
   /// No description provided for @colorUser.
   ///
-  /// In en, this message translates to:
-  /// **'Personal'**
+  /// In ru, this message translates to:
+  /// **'Пользовательская'**
   String get colorUser;
 
   /// No description provided for @columnMap.
   ///
-  /// In en, this message translates to:
-  /// **'Mapping for Column \'{value}\''**
+  /// In ru, this message translates to:
+  /// **'Сопоставление для колонки «{value}»'**
   String columnMap(Object value);
 
   /// No description provided for @columnMapTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'\'{value}\' - Choose Column Mapping'**
+  /// In ru, this message translates to:
+  /// **'«{value}» — выбрать сопоставление колонки'**
   String columnMapTooltip(Object value);
 
   /// No description provided for @completeGoalTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Complete Goal'**
+  /// In ru, this message translates to:
+  /// **'Завершить цель'**
   String get completeGoalTooltip;
 
   /// No description provided for @confirmHeader.
   ///
-  /// In en, this message translates to:
-  /// **'Confirm Action'**
+  /// In ru, this message translates to:
+  /// **'Подтверждение действия'**
   String get confirmHeader;
 
   /// No description provided for @confirmTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Are you sure? This action cannot be undone.'**
+  /// In ru, this message translates to:
+  /// **'Вы уверены? Это действие нельзя отменить.'**
   String get confirmTooltip;
 
   /// No description provided for @contributors.
   ///
-  /// In en, this message translates to:
-  /// **'Contributors'**
+  /// In ru, this message translates to:
+  /// **'Участники'**
   String get contributors;
 
   /// No description provided for @conversion.
   ///
-  /// In en, this message translates to:
-  /// **'Conversion'**
+  /// In ru, this message translates to:
+  /// **'Конвертация'**
   String get conversion;
 
   /// No description provided for @conversionMessage.
   ///
-  /// In en, this message translates to:
-  /// **'Taken in {currency}'**
+  /// In ru, this message translates to:
+  /// **'Учтено в валюте {currency}'**
   String conversionMessage(Object currency);
 
   /// No description provided for @copiedToClipboard.
   ///
-  /// In en, this message translates to:
-  /// **'Copied to Clipboard'**
+  /// In ru, this message translates to:
+  /// **'Скопировано в буфер обмена'**
   String get copiedToClipboard;
 
   /// No description provided for @createAccountHeader.
   ///
-  /// In en, this message translates to:
-  /// **'Create new Account'**
+  /// In ru, this message translates to:
+  /// **'Создать новый профиль'**
   String get createAccountHeader;
 
   /// No description provided for @createAccountTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Create new Account'**
+  /// In ru, this message translates to:
+  /// **'Создать новый профиль'**
   String get createAccountTooltip;
 
   /// No description provided for @createBillHeader.
   ///
-  /// In en, this message translates to:
-  /// **'Create new Transaction'**
+  /// In ru, this message translates to:
+  /// **'Создать операцию'**
   String get createBillHeader;
 
   /// No description provided for @createBillTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add new Bill'**
+  /// In ru, this message translates to:
+  /// **'Добавить операцию'**
   String get createBillTooltip;
 
   /// No description provided for @createBudgetHeader.
   ///
-  /// In en, this message translates to:
-  /// **'New Budget Category'**
+  /// In ru, this message translates to:
+  /// **'Новая категория бюджета'**
   String get createBudgetHeader;
 
   /// No description provided for @createBudgetTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Create new Budget Category'**
+  /// In ru, this message translates to:
+  /// **'Создать категорию бюджета'**
   String get createBudgetTooltip;
 
   /// No description provided for @createGoalHeader.
   ///
-  /// In en, this message translates to:
-  /// **'Create Goal'**
+  /// In ru, this message translates to:
+  /// **'Создать цель'**
   String get createGoalHeader;
 
   /// No description provided for @createGoalTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add new Goal'**
+  /// In ru, this message translates to:
+  /// **'Добавить цель'**
   String get createGoalTooltip;
 
   /// No description provided for @createIncomeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add new Income'**
+  /// In ru, this message translates to:
+  /// **'Добавить доход'**
   String get createIncomeTooltip;
 
   /// No description provided for @createPaymentTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add new Payment'**
+  /// In ru, this message translates to:
+  /// **'Добавить платёж'**
   String get createPaymentTooltip;
 
   /// No description provided for @createTransferTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Create Transfer'**
+  /// In ru, this message translates to:
+  /// **'Создать перевод'**
   String get createTransferTooltip;
 
   /// No description provided for @credit.
   ///
-  /// In en, this message translates to:
-  /// **'Credit'**
+  /// In ru, this message translates to:
+  /// **'Кредит'**
   String get credit;
 
   /// No description provided for @creditCard.
   ///
-  /// In en, this message translates to:
-  /// **'Credit Card'**
+  /// In ru, this message translates to:
+  /// **'Кредитная карта'**
   String get creditCard;
 
   /// No description provided for @currency.
   ///
-  /// In en, this message translates to:
-  /// **'Currency'**
+  /// In ru, this message translates to:
+  /// **'Валюта'**
   String get currency;
 
   /// No description provided for @currencyAddHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Currency Exchange'**
+  /// In ru, this message translates to:
+  /// **'Обмен валют'**
   String get currencyAddHeadline;
 
   /// No description provided for @currencyAddTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add Currency Exchange Rate'**
+  /// In ru, this message translates to:
+  /// **'Добавить курс обмена валют'**
   String get currencyAddTooltip;
 
   /// No description provided for @currencyDefault.
   ///
-  /// In en, this message translates to:
-  /// **'Default Currency'**
+  /// In ru, this message translates to:
+  /// **'Валюта по умолчанию'**
   String get currencyDefault;
 
   /// No description provided for @currencyDistribution.
   ///
-  /// In en, this message translates to:
-  /// **'Distribution'**
+  /// In ru, this message translates to:
+  /// **'Распределение'**
   String get currencyDistribution;
 
   /// No description provided for @currencyExchange.
   ///
-  /// In en, this message translates to:
-  /// **'Currency Exchange: {from} -> {to}'**
+  /// In ru, this message translates to:
+  /// **'Обмен валют: {from} → {to}'**
   String currencyExchange(Object from, Object to);
 
   /// No description provided for @currencyHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Currencies'**
+  /// In ru, this message translates to:
+  /// **'Валюты'**
   String get currencyHeadline;
 
   /// No description provided for @currencyIn.
   ///
-  /// In en, this message translates to:
-  /// **'In {value}'**
+  /// In ru, this message translates to:
+  /// **'В {value}'**
   String currencyIn(Object value);
 
   /// No description provided for @currencyShort.
   ///
-  /// In en, this message translates to:
-  /// **'Curr.'**
+  /// In ru, this message translates to:
+  /// **'Вал.'**
   String get currencyShort;
 
   /// No description provided for @currencyTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Currency Type (Code)'**
+  /// In ru, this message translates to:
+  /// **'Тип валюты (код)'**
   String get currencyTooltip;
 
   /// No description provided for @currencyUpdateTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Update Currencies Rate'**
+  /// In ru, this message translates to:
+  /// **'Обновить курсы валют'**
   String get currencyUpdateTooltip;
 
   /// No description provided for @currentDate.
   ///
-  /// In en, this message translates to:
-  /// **'Current Date Pointer'**
+  /// In ru, this message translates to:
+  /// **'Текущая дата'**
   String get currentDate;
 
   /// No description provided for @customAddTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Add Widget'**
+  /// In ru, this message translates to:
+  /// **'Добавить виджет'**
   String get customAddTooltip;
 
   /// No description provided for @customDeleteTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Delete Customization'**
+  /// In ru, this message translates to:
+  /// **'Удалить настройку'**
   String get customDeleteTooltip;
 
   /// No description provided for @customSaveTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Save Customization'**
+  /// In ru, this message translates to:
+  /// **'Сохранить настройку'**
   String get customSaveTooltip;
 
   /// No description provided for @customizeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Customize Page'**
+  /// In ru, this message translates to:
+  /// **'Настроить страницу'**
   String get customizeTooltip;
 
   /// No description provided for @darkMode.
   ///
-  /// In en, this message translates to:
-  /// **'Dark'**
+  /// In ru, this message translates to:
+  /// **'Тёмный режим'**
   String get darkMode;
 
   /// No description provided for @dateFormat.
   ///
-  /// In en, this message translates to:
-  /// **'Date Format'**
+  /// In ru, this message translates to:
+  /// **'Формат даты'**
   String get dateFormat;
 
   /// No description provided for @dateRange.
   ///
-  /// In en, this message translates to:
-  /// **'Date Range'**
+  /// In ru, this message translates to:
+  /// **'Диапазон дат'**
   String get dateRange;
 
   /// No description provided for @dateTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Select Date'**
+  /// In ru, this message translates to:
+  /// **'Выбрать дату'**
   String get dateTooltip;
 
   /// No description provided for @dayMonday.
   ///
-  /// In en, this message translates to:
-  /// **'Monday'**
+  /// In ru, this message translates to:
+  /// **'Понедельник'**
   String get dayMonday;
 
   /// No description provided for @dayStartOfMonth.
   ///
-  /// In en, this message translates to:
-  /// **'Start of Month'**
+  /// In ru, this message translates to:
+  /// **'Начало месяца'**
   String get dayStartOfMonth;
 
   /// No description provided for @dayStartOfWeek.
   ///
-  /// In en, this message translates to:
-  /// **'Start of Week'**
+  /// In ru, this message translates to:
+  /// **'Начало недели'**
   String get dayStartOfWeek;
 
   /// No description provided for @daySunday.
   ///
-  /// In en, this message translates to:
-  /// **'Sunday'**
+  /// In ru, this message translates to:
+  /// **'Воскресенье'**
   String get daySunday;
 
   /// No description provided for @debitCard.
   ///
-  /// In en, this message translates to:
-  /// **'Debit Card'**
+  /// In ru, this message translates to:
+  /// **'Дебетовая карта'**
   String get debitCard;
 
   /// No description provided for @def.
   ///
-  /// In en, this message translates to:
-  /// **'Default Value for \'{value}\''**
+  /// In ru, this message translates to:
+  /// **'Значение по умолчанию для «{value}»'**
   String def(Object value);
 
   /// No description provided for @deleteAccountTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Deactivate Account'**
+  /// In ru, this message translates to:
+  /// **'Деактивировать профиль'**
   String get deleteAccountTooltip;
 
   /// No description provided for @deleteBillTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Delete Bill'**
+  /// In ru, this message translates to:
+  /// **'Удалить операцию'**
   String get deleteBillTooltip;
 
   /// No description provided for @deleteBudgetTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Deactivate Budget Category'**
+  /// In ru, this message translates to:
+  /// **'Деактивировать категорию бюджета'**
   String get deleteBudgetTooltip;
 
   /// No description provided for @deleteGoalTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Delete Goal'**
+  /// In ru, this message translates to:
+  /// **'Удалить цель'**
   String get deleteGoalTooltip;
 
   /// No description provided for @deleteInvoiceTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Delete Invoice'**
+  /// In ru, this message translates to:
+  /// **'Удалить счёт'**
   String get deleteInvoiceTooltip;
 
   /// No description provided for @deletePaymentTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Delete Payment'**
+  /// In ru, this message translates to:
+  /// **'Удалить платёж'**
   String get deletePaymentTooltip;
 
   /// No description provided for @deleteTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Delete'**
+  /// In ru, this message translates to:
+  /// **'Удалить'**
   String get deleteTooltip;
 
   /// No description provided for @deleteTransferTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Delete Transfer'**
+  /// In ru, this message translates to:
+  /// **'Удалить перевод'**
   String get deleteTransferTooltip;
 
   /// No description provided for @deposit.
   ///
-  /// In en, this message translates to:
-  /// **'Deposit'**
+  /// In ru, this message translates to:
+  /// **'Депозит'**
   String get deposit;
 
   /// No description provided for @description.
   ///
-  /// In en, this message translates to:
-  /// **'Description'**
+  /// In ru, this message translates to:
+  /// **'Описание'**
   String get description;
 
   /// No description provided for @descriptionTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Set Expense Details'**
+  /// In ru, this message translates to:
+  /// **'Указать детали расхода'**
   String get descriptionTooltip;
 
   /// No description provided for @design.
   ///
-  /// In en, this message translates to:
-  /// **'Design Mode (Culture Specific)'**
+  /// In ru, this message translates to:
+  /// **'Режим оформления (культурный)'**
   String get design;
 
   /// No description provided for @designAsiaGeneral.
   ///
-  /// In en, this message translates to:
-  /// **'Asia General'**
+  /// In ru, this message translates to:
+  /// **'Азия (общий)'**
   String get designAsiaGeneral;
 
   /// No description provided for @designGermany.
   ///
-  /// In en, this message translates to:
-  /// **'Germany'**
+  /// In ru, this message translates to:
+  /// **'Германия'**
   String get designGermany;
 
   /// No description provided for @designGlobal.
   ///
-  /// In en, this message translates to:
-  /// **'Global'**
+  /// In ru, this message translates to:
+  /// **'Глобальный'**
   String get designGlobal;
 
   /// No description provided for @designRtlGeneral.
   ///
-  /// In en, this message translates to:
-  /// **'Right-to-Left Lettering'**
+  /// In ru, this message translates to:
+  /// **'Справа налево'**
   String get designRtlGeneral;
 
   /// No description provided for @details.
   ///
-  /// In en, this message translates to:
-  /// **'Details'**
+  /// In ru, this message translates to:
+  /// **'Детали'**
   String get details;
 
   /// No description provided for @detailsTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'****2345 - last 4 digits of number'**
+  /// In ru, this message translates to:
+  /// **'****2345 — последние 4 цифры номера'**
   String get detailsTooltip;
 
   /// No description provided for @dtAm.
   ///
-  /// In en, this message translates to:
-  /// **'am'**
+  /// In ru, this message translates to:
+  /// **'дп'**
   String get dtAm;
 
   /// No description provided for @dtAmPm.
   ///
-  /// In en, this message translates to:
-  /// **'hour in am/pm (0~11)'**
+  /// In ru, this message translates to:
+  /// **'час в формате am/pm (0–11)'**
   String get dtAmPm;
 
   /// No description provided for @dtDay.
   ///
-  /// In en, this message translates to:
-  /// **'day in month'**
+  /// In ru, this message translates to:
+  /// **'день месяца'**
   String get dtDay;
 
   /// No description provided for @dtEscape.
   ///
-  /// In en, this message translates to:
-  /// **'escape for text'**
+  /// In ru, this message translates to:
+  /// **'экранирование текста'**
   String get dtEscape;
 
   /// No description provided for @dtHalfHour.
   ///
-  /// In en, this message translates to:
-  /// **'hour in am/pm (1~12)'**
+  /// In ru, this message translates to:
+  /// **'час в формате am/pm (1–12)'**
   String get dtHalfHour;
 
   /// No description provided for @dtHour.
   ///
-  /// In en, this message translates to:
-  /// **'hour in day (0~23)'**
+  /// In ru, this message translates to:
+  /// **'час дня (0–23)'**
   String get dtHour;
 
   /// No description provided for @dtMinute.
   ///
-  /// In en, this message translates to:
-  /// **'minute in hour'**
+  /// In ru, this message translates to:
+  /// **'минута'**
   String get dtMinute;
 
   /// No description provided for @dtMonth.
   ///
-  /// In en, this message translates to:
-  /// **'month in year'**
+  /// In ru, this message translates to:
+  /// **'месяц'**
   String get dtMonth;
 
   /// No description provided for @dtNamedDay.
   ///
-  /// In en, this message translates to:
-  /// **'day of week'**
+  /// In ru, this message translates to:
+  /// **'день недели'**
   String get dtNamedDay;
 
   /// No description provided for @dtPm.
   ///
-  /// In en, this message translates to:
-  /// **'pm'**
+  /// In ru, this message translates to:
+  /// **'пп'**
   String get dtPm;
 
   /// No description provided for @dtQuote.
   ///
-  /// In en, this message translates to:
-  /// **'single quote'**
+  /// In ru, this message translates to:
+  /// **'одинарная кавычка'**
   String get dtQuote;
 
   /// No description provided for @dtSecond.
   ///
-  /// In en, this message translates to:
-  /// **'second in minute'**
+  /// In ru, this message translates to:
+  /// **'секунда'**
   String get dtSecond;
 
   /// No description provided for @dtYear.
   ///
-  /// In en, this message translates to:
-  /// **'year'**
+  /// In ru, this message translates to:
+  /// **'год'**
   String get dtYear;
 
   /// No description provided for @editAccountHeader.
   ///
-  /// In en, this message translates to:
-  /// **'Update Account'**
+  /// In ru, this message translates to:
+  /// **'Обновить профиль'**
   String get editAccountHeader;
 
   /// No description provided for @editAccountTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Edit Account'**
+  /// In ru, this message translates to:
+  /// **'Редактировать профиль'**
   String get editAccountTooltip;
 
   /// No description provided for @editBillHeader.
   ///
-  /// In en, this message translates to:
-  /// **'Update Bill'**
+  /// In ru, this message translates to:
+  /// **'Обновить операцию'**
   String get editBillHeader;
 
   /// No description provided for @editBillTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Edit Bill'**
+  /// In ru, this message translates to:
+  /// **'Редактировать операцию'**
   String get editBillTooltip;
 
   /// No description provided for @editBudgetHeader.
   ///
-  /// In en, this message translates to:
-  /// **'Update Budget Category'**
+  /// In ru, this message translates to:
+  /// **'Обновить категорию бюджета'**
   String get editBudgetHeader;
 
   /// No description provided for @editBudgetTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Edit Budget Category'**
+  /// In ru, this message translates to:
+  /// **'Редактировать категорию бюджета'**
   String get editBudgetTooltip;
 
   /// No description provided for @editGoalHeader.
   ///
-  /// In en, this message translates to:
-  /// **'Update Goal'**
+  /// In ru, this message translates to:
+  /// **'Обновить цель'**
   String get editGoalHeader;
 
   /// No description provided for @editGoalTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Edit Goal'**
+  /// In ru, this message translates to:
+  /// **'Редактировать цель'**
   String get editGoalTooltip;
 
   /// No description provided for @editInvoiceTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Edit Invoice'**
+  /// In ru, this message translates to:
+  /// **'Редактировать счёт'**
   String get editInvoiceTooltip;
 
   /// No description provided for @editPaymentTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Edit Payment'**
+  /// In ru, this message translates to:
+  /// **'Редактировать платёж'**
   String get editPaymentTooltip;
 
   /// No description provided for @editTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Edit'**
+  /// In ru, this message translates to:
+  /// **'Редактировать'**
   String get editTooltip;
 
   /// No description provided for @editTransferTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Edit Transfer'**
+  /// In ru, this message translates to:
+  /// **'Редактировать перевод'**
   String get editTransferTooltip;
 
   /// No description provided for @encryptionMode.
   ///
-  /// In en, this message translates to:
-  /// **'Data Encryption'**
+  /// In ru, this message translates to:
+  /// **'Шифрование данных'**
   String get encryptionMode;
 
   /// No description provided for @error.
   ///
-  /// In en, this message translates to:
-  /// **'Error: {value}'**
+  /// In ru, this message translates to:
+  /// **'Ошибка: {value}'**
   String error(Object value);
 
   /// No description provided for @errorExpired.
   ///
-  /// In en, this message translates to:
-  /// **'Card expired'**
+  /// In ru, this message translates to:
+  /// **'Срок действия карты истёк'**
   String get errorExpired;
 
   /// No description provided for @errorNegative.
   ///
-  /// In en, this message translates to:
-  /// **'Cannot be negative! Please, fix the error'**
+  /// In ru, this message translates to:
+  /// **'Значение не может быть отрицательным! Пожалуйста, исправьте ошибку'**
   String get errorNegative;
 
   /// No description provided for @example.
   ///
-  /// In en, this message translates to:
-  /// **'Example'**
+  /// In ru, this message translates to:
+  /// **'Пример'**
   String get example;
 
   /// No description provided for @expand.
   ///
-  /// In en, this message translates to:
-  /// **'Expand Section'**
+  /// In ru, this message translates to:
+  /// **'Развернуть раздел'**
   String get expand;
 
   /// No description provided for @expense.
   ///
-  /// In en, this message translates to:
-  /// **'Amount of Expenses'**
+  /// In ru, this message translates to:
+  /// **'Сумма расходов'**
   String get expense;
 
   /// No description provided for @expenseDateTime.
   ///
-  /// In en, this message translates to:
-  /// **'Billed At'**
+  /// In ru, this message translates to:
+  /// **'Дата операции'**
   String get expenseDateTime;
 
   /// No description provided for @expenseHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Expense'**
+  /// In ru, this message translates to:
+  /// **'Расход'**
   String get expenseHeadline;
 
   /// No description provided for @expenseTransfer.
   ///
-  /// In en, this message translates to:
-  /// **'Amount of Transfer'**
+  /// In ru, this message translates to:
+  /// **'Сумма перевода'**
   String get expenseTransfer;
 
   /// No description provided for @exportFile.
   ///
-  /// In en, this message translates to:
-  /// **'Export as .{value}-file'**
+  /// In ru, this message translates to:
+  /// **'Экспортировать в файл .{value}'**
   String exportFile(Object value);
 
   /// No description provided for @failData.
   ///
-  /// In en, this message translates to:
-  /// **'Amount Deduction'**
+  /// In ru, this message translates to:
+  /// **'Списание суммы'**
   String get failData;
 
   /// No description provided for @flowTypeInvoice.
   ///
-  /// In en, this message translates to:
-  /// **'Invoice'**
+  /// In ru, this message translates to:
+  /// **'Счёт'**
   String get flowTypeInvoice;
 
   /// No description provided for @flowTypeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Amount Type: Bill, Invoice'**
+  /// In ru, this message translates to:
+  /// **'Тип суммы: операция, счёт'**
   String get flowTypeTooltip;
 
   /// No description provided for @forecastData.
   ///
-  /// In en, this message translates to:
-  /// **'Forecast'**
+  /// In ru, this message translates to:
+  /// **'Прогноз'**
   String get forecastData;
 
   /// No description provided for @from.
   ///
-  /// In en, this message translates to:
-  /// **'from'**
+  /// In ru, this message translates to:
+  /// **'из'**
   String get from;
 
   /// No description provided for @goNextTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Go Next'**
+  /// In ru, this message translates to:
+  /// **'Перейти далее'**
   String get goNextTooltip;
 
   /// No description provided for @goalHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Goals'**
+  /// In ru, this message translates to:
+  /// **'Цели'**
   String get goalHeadline;
 
   /// No description provided for @goalProfit.
   ///
-  /// In en, this message translates to:
-  /// **'Goals Target: {value}'**
+  /// In ru, this message translates to:
+  /// **'Цель: {value}'**
   String goalProfit(Object value);
 
   /// No description provided for @goalProfitTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Profit vs Goals Target'**
+  /// In ru, this message translates to:
+  /// **'Прибыль относительно цели'**
   String get goalProfitTooltip;
 
   /// No description provided for @goalTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Open Goals'**
+  /// In ru, this message translates to:
+  /// **'Открыть цели'**
   String get goalTooltip;
 
   /// No description provided for @hasEncrypted.
   ///
-  /// In en, this message translates to:
-  /// **'Once set, cannot be changed'**
+  /// In ru, this message translates to:
+  /// **'После установки нельзя изменить'**
   String get hasEncrypted;
 
   /// No description provided for @helpTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'[Help] Show Description of that Page'**
+  /// In ru, this message translates to:
+  /// **'[Справка] Показать описание страницы'**
   String get helpTooltip;
 
   /// No description provided for @homeHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Home'**
+  /// In ru, this message translates to:
+  /// **'Главная'**
   String get homeHeadline;
 
   /// No description provided for @homeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Back to Main Page'**
+  /// In ru, this message translates to:
+  /// **'Вернуться на главную страницу'**
   String get homeTooltip;
 
   /// No description provided for @icon.
   ///
-  /// In en, this message translates to:
-  /// **'Icon'**
+  /// In ru, this message translates to:
+  /// **'Иконка'**
   String get icon;
 
   /// No description provided for @iconTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Select Icon'**
+  /// In ru, this message translates to:
+  /// **'Выбрать иконку'**
   String get iconTooltip;
 
   /// No description provided for @ignoreTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Ignore'**
+  /// In ru, this message translates to:
+  /// **'Игнорировать'**
   String get ignoreTooltip;
 
   /// No description provided for @importHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Import / Export'**
+  /// In ru, this message translates to:
+  /// **'Импорт / Экспорт'**
   String get importHeadline;
 
   /// No description provided for @income.
   ///
-  /// In en, this message translates to:
-  /// **'Amount of Income'**
+  /// In ru, this message translates to:
+  /// **'Сумма доходов'**
   String get income;
 
   /// No description provided for @incomeHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Income'**
+  /// In ru, this message translates to:
+  /// **'Доход'**
   String get incomeHeadline;
 
   /// No description provided for @incomeHealth.
   ///
-  /// In en, this message translates to:
-  /// **'Income Health Radar'**
+  /// In ru, this message translates to:
+  /// **'Радар финансового здоровья'**
   String get incomeHealth;
 
   /// No description provided for @incomeTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Set Income Details'**
+  /// In ru, this message translates to:
+  /// **'Указать детали дохода'**
   String get incomeTooltip;
 
   /// No description provided for @invoiceHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Invoices'**
+  /// In ru, this message translates to:
+  /// **'Счета'**
   String get invoiceHeadline;
 
   /// No description provided for @invoiceSum.
   ///
-  /// In en, this message translates to:
-  /// **'Invoices: {value}'**
+  /// In ru, this message translates to:
+  /// **'Счета: {value}'**
   String invoiceSum(Object value);
 
   /// No description provided for @isCleaned.
   ///
-  /// In en, this message translates to:
-  /// **'Remove existing data'**
+  /// In ru, this message translates to:
+  /// **'Удалить существующие данные'**
   String get isCleaned;
 
   /// No description provided for @isCreated.
   ///
-  /// In en, this message translates to:
-  /// **'Already created, follow next steps!'**
+  /// In ru, this message translates to:
+  /// **'Уже создано, выполните следующие шаги!'**
   String get isCreated;
 
   /// No description provided for @isEncrypted.
   ///
-  /// In en, this message translates to:
-  /// **'File is encrypted (by default)'**
+  /// In ru, this message translates to:
+  /// **'Файл зашифрован (по умолчанию)'**
   String get isEncrypted;
 
   /// No description provided for @isRequired.
   ///
-  /// In en, this message translates to:
-  /// **'required'**
+  /// In ru, this message translates to:
+  /// **'обязательно'**
   String get isRequired;
 
   /// No description provided for @language.
   ///
-  /// In en, this message translates to:
-  /// **'Language'**
+  /// In ru, this message translates to:
+  /// **'Язык'**
   String get language;
 
   /// No description provided for @left.
   ///
-  /// In en, this message translates to:
-  /// **'left'**
+  /// In ru, this message translates to:
+  /// **'слева'**
   String get left;
 
   /// No description provided for @lightMode.
   ///
-  /// In en, this message translates to:
-  /// **'Light'**
+  /// In ru, this message translates to:
+  /// **'Светлый режим'**
   String get lightMode;
 
   /// No description provided for @link.
   ///
-  /// In en, this message translates to:
-  /// **'Uniform Resource Locator (URL)'**
+  /// In ru, this message translates to:
+  /// **'URL (ссылка)'**
   String get link;
 
   /// No description provided for @meaning.
   ///
-  /// In en, this message translates to:
-  /// **'Meaning'**
+  /// In ru, this message translates to:
+  /// **'Значение'**
   String get meaning;
 
   /// No description provided for @metricsHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Metrics'**
+  /// In ru, this message translates to:
+  /// **'Метрики'**
   String get metricsHeadline;
 
   /// No description provided for @metricsTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Metrics'**
+  /// In ru, this message translates to:
+  /// **'Метрики'**
   String get metricsTooltip;
 
   /// No description provided for @milestones.
   ///
-  /// In en, this message translates to:
-  /// **'Milestones'**
+  /// In ru, this message translates to:
+  /// **'Этапы'**
   String get milestones;
 
   /// No description provided for @missingContent.
   ///
-  /// In en, this message translates to:
-  /// **'File cannot be processed (either canceled)'**
+  /// In ru, this message translates to:
+  /// **'Файл не может быть обработан (отменён или повреждён)'**
   String get missingContent;
 
   /// No description provided for @navigationTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Open main menu'**
+  /// In ru, this message translates to:
+  /// **'Открыть главное меню'**
   String get navigationTooltip;
 
   /// No description provided for @netProfit.
   ///
-  /// In en, this message translates to:
-  /// **'Profit: {value}'**
+  /// In ru, this message translates to:
+  /// **'Прибыль: {value}'**
   String netProfit(Object value);
 
   /// No description provided for @noChartData.
   ///
-  /// In en, this message translates to:
-  /// **'Data is missing (or not enough) to be shown'**
+  /// In ru, this message translates to:
+  /// **'Недостаточно данных для отображения'**
   String get noChartData;
 
   /// No description provided for @notifyHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Notifications Parser'**
+  /// In ru, this message translates to:
+  /// **'Парсер уведомлений'**
   String get notifyHeadline;
 
   /// No description provided for @ok.
   ///
-  /// In en, this message translates to:
-  /// **'OK'**
+  /// In ru, this message translates to:
+  /// **'ОК'**
   String get ok;
 
   /// No description provided for @orderPin.
   ///
-  /// In en, this message translates to:
-  /// **'Prioritized order'**
+  /// In ru, this message translates to:
+  /// **'Приоритетный порядок'**
   String get orderPin;
 
   /// No description provided for @orderUnpin.
   ///
-  /// In en, this message translates to:
-  /// **'Generalized order'**
+  /// In ru, this message translates to:
+  /// **'Обычный порядок'**
   String get orderUnpin;
 
   /// No description provided for @outputFile.
   ///
-  /// In en, this message translates to:
-  /// **'Destination for the file'**
+  /// In ru, this message translates to:
+  /// **'Файл назначения'**
   String get outputFile;
 
   /// No description provided for @parseFile.
   ///
-  /// In en, this message translates to:
-  /// **'Parse File'**
+  /// In ru, this message translates to:
+  /// **'Обработать файл'**
   String get parseFile;
 
   /// No description provided for @password.
   ///
-  /// In en, this message translates to:
-  /// **'Password'**
+  /// In ru, this message translates to:
+  /// **'Пароль'**
   String get password;
 
   /// No description provided for @path.
   ///
-  /// In en, this message translates to:
-  /// **'File Name (to save into, or load from)'**
+  /// In ru, this message translates to:
+  /// **'Имя файла (для сохранения или загрузки)'**
   String get path;
 
   /// No description provided for @paymentType.
   ///
-  /// In en, this message translates to:
-  /// **'Payment Interval'**
+  /// In ru, this message translates to:
+  /// **'Периодичность платежа'**
   String get paymentType;
 
   /// No description provided for @paymentsHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Recurring Payments'**
+  /// In ru, this message translates to:
+  /// **'Регулярные платежи'**
   String get paymentsHeadline;
 
   /// No description provided for @pearDisabled.
   ///
-  /// In en, this message translates to:
-  /// **'-- disabled --'**
+  /// In ru, this message translates to:
+  /// **'-- отключено --'**
   String get pearDisabled;
 
   /// No description provided for @pearLoading.
   ///
-  /// In en, this message translates to:
-  /// **'In Progress...'**
+  /// In ru, this message translates to:
+  /// **'Выполняется...'**
   String get pearLoading;
 
   /// No description provided for @peerAccept.
   ///
-  /// In en, this message translates to:
-  /// **'accept'**
+  /// In ru, this message translates to:
+  /// **'принять'**
   String get peerAccept;
 
   /// No description provided for @peerAction.
   ///
-  /// In en, this message translates to:
-  /// **'Action'**
+  /// In ru, this message translates to:
+  /// **'Действие'**
   String get peerAction;
 
   /// No description provided for @peerClosed.
   ///
-  /// In en, this message translates to:
-  /// **'terminated'**
+  /// In ru, this message translates to:
+  /// **'завершено'**
   String get peerClosed;
 
   /// No description provided for @peerConnect.
   ///
-  /// In en, this message translates to:
-  /// **'Connect Device'**
+  /// In ru, this message translates to:
+  /// **'Подключить устройство'**
   String get peerConnect;
 
   /// No description provided for @peerConnectBtn.
   ///
-  /// In en, this message translates to:
-  /// **'connect'**
+  /// In ru, this message translates to:
+  /// **'подключить'**
   String get peerConnectBtn;
 
   /// No description provided for @peerDelete.
   ///
-  /// In en, this message translates to:
-  /// **'delete'**
+  /// In ru, this message translates to:
+  /// **'удалить'**
   String get peerDelete;
 
   /// No description provided for @peerDevice.
   ///
-  /// In en, this message translates to:
-  /// **'Connected Devices'**
+  /// In ru, this message translates to:
+  /// **'Подключённые устройства'**
   String get peerDevice;
 
   /// No description provided for @peerId.
   ///
-  /// In en, this message translates to:
-  /// **'Your Device Identifier for Connection'**
+  /// In ru, this message translates to:
+  /// **'Идентификатор вашего устройства'**
   String get peerId;
 
   /// No description provided for @peerOffline.
   ///
-  /// In en, this message translates to:
-  /// **'offline'**
+  /// In ru, this message translates to:
+  /// **'не в сети'**
   String get peerOffline;
 
   /// No description provided for @peerOnline.
   ///
-  /// In en, this message translates to:
-  /// **'connected'**
+  /// In ru, this message translates to:
+  /// **'подключено'**
   String get peerOnline;
 
   /// No description provided for @peerOtherId.
   ///
-  /// In en, this message translates to:
-  /// **'Device Identifier for Connection'**
+  /// In ru, this message translates to:
+  /// **'Идентификатор устройства для подключения'**
   String get peerOtherId;
 
   /// No description provided for @peerPending.
   ///
-  /// In en, this message translates to:
-  /// **'pending'**
+  /// In ru, this message translates to:
+  /// **'ожидание'**
   String get peerPending;
 
   /// No description provided for @peerPing.
   ///
-  /// In en, this message translates to:
-  /// **'ping'**
+  /// In ru, this message translates to:
+  /// **'пинг'**
   String get peerPing;
 
   /// No description provided for @peerSent.
   ///
-  /// In en, this message translates to:
-  /// **'Data is transferred to connected Devices'**
+  /// In ru, this message translates to:
+  /// **'Данные переданы на подключённые устройства'**
   String get peerSent;
 
   /// No description provided for @peerStatus.
   ///
-  /// In en, this message translates to:
-  /// **'Status'**
+  /// In ru, this message translates to:
+  /// **'Статус'**
   String get peerStatus;
 
   /// No description provided for @peerSync.
   ///
-  /// In en, this message translates to:
-  /// **'Transfer Data'**
+  /// In ru, this message translates to:
+  /// **'Передать данные'**
   String get peerSync;
 
   /// No description provided for @pickFile.
   ///
-  /// In en, this message translates to:
-  /// **'Pick .{value}-file'**
+  /// In ru, this message translates to:
+  /// **'Выбрать файл .{value}'**
   String pickFile(Object value);
 
   /// No description provided for @pongStatus.
   ///
-  /// In en, this message translates to:
-  /// **'Taken request from {uuid}'**
+  /// In ru, this message translates to:
+  /// **'Получен запрос от {uuid}'**
   String pongStatus(Object uuid);
 
   /// No description provided for @processIsFinished.
   ///
-  /// In en, this message translates to:
-  /// **'Finished!'**
+  /// In ru, this message translates to:
+  /// **'Завершено!'**
   String get processIsFinished;
 
   /// No description provided for @progress.
   ///
-  /// In en, this message translates to:
-  /// **'Progress: {value}%'**
+  /// In ru, this message translates to:
+  /// **'Прогресс: {value}%'**
   String progress(Object value);
 
   /// No description provided for @raiseData.
   ///
-  /// In en, this message translates to:
-  /// **'Amount Addition'**
+  /// In ru, this message translates to:
+  /// **'Начисление суммы'**
   String get raiseData;
 
   /// No description provided for @recoveryHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Recovery'**
+  /// In ru, this message translates to:
+  /// **'Восстановление'**
   String get recoveryHeadline;
 
   /// No description provided for @recoveryTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Recover From'**
+  /// In ru, this message translates to:
+  /// **'Восстановить из'**
   String get recoveryTooltip;
 
   /// No description provided for @releases.
   ///
-  /// In en, this message translates to:
-  /// **'Releases'**
+  /// In ru, this message translates to:
+  /// **'Релизы'**
   String get releases;
 
   /// No description provided for @reset.
   ///
-  /// In en, this message translates to:
-  /// **'reset'**
+  /// In ru, this message translates to:
+  /// **'сбросить'**
   String get reset;
 
   /// No description provided for @returnBack.
   ///
-  /// In en, this message translates to:
-  /// **'Return Back'**
+  /// In ru, this message translates to:
+  /// **'Вернуться назад'**
   String get returnBack;
 
   /// No description provided for @roadmap.
   ///
-  /// In en, this message translates to:
-  /// **'Roadmap'**
+  /// In ru, this message translates to:
+  /// **'Дорожная карта'**
   String get roadmap;
 
   /// No description provided for @saveNotification.
   ///
-  /// In en, this message translates to:
-  /// **'Changes saved!'**
+  /// In ru, this message translates to:
+  /// **'Изменения сохранены!'**
   String get saveNotification;
 
   /// No description provided for @saveSettingsTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Save'**
+  /// In ru, this message translates to:
+  /// **'Сохранить'**
   String get saveSettingsTooltip;
 
   /// No description provided for @saveTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Save To'**
+  /// In ru, this message translates to:
+  /// **'Сохранить в'**
   String get saveTooltip;
 
   /// No description provided for @search.
   ///
-  /// In en, this message translates to:
-  /// **'Show By \'{value}\' Pattern'**
+  /// In ru, this message translates to:
+  /// **'Показать по шаблону «{value}»'**
   String search(Object value);
 
   /// No description provided for @searchTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Search'**
+  /// In ru, this message translates to:
+  /// **'Поиск'**
   String get searchTooltip;
 
   /// No description provided for @settingsBaseHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Basics'**
+  /// In ru, this message translates to:
+  /// **'Основные'**
   String get settingsBaseHeadline;
 
   /// No description provided for @settingsHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Settings'**
+  /// In ru, this message translates to:
+  /// **'Настройки'**
   String get settingsHeadline;
 
   /// No description provided for @skipFromTotals.
   ///
-  /// In en, this message translates to:
-  /// **'Exclude from Totals'**
+  /// In ru, this message translates to:
+  /// **'Исключить из итогов'**
   String get skipFromTotals;
 
   /// No description provided for @skipTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Skip Step(s)'**
+  /// In ru, this message translates to:
+  /// **'Пропустить шаг(и)'**
   String get skipTooltip;
 
   /// No description provided for @spent.
   ///
-  /// In en, this message translates to:
-  /// **'spent'**
+  /// In ru, this message translates to:
+  /// **'потрачено'**
   String get spent;
 
   /// No description provided for @splitCancelTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Cancel Split per Month'**
+  /// In ru, this message translates to:
+  /// **'Отменить разделение по месяцам'**
   String get splitCancelTooltip;
 
   /// No description provided for @splitTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Declare Limits per Month'**
+  /// In ru, this message translates to:
+  /// **'Задать лимиты по месяцам'**
   String get splitTooltip;
 
   /// No description provided for @subscription.
   ///
-  /// In en, this message translates to:
-  /// **'As an open-source project, subscribing will not unlock any additional features. However, it would serve as an investment in the continuous evolution and improvement of the application, and to preserve its availability.'**
+  /// In ru, this message translates to:
+  /// **'Проект с открытым исходным кодом. Подписка не открывает дополнительных функций, но поддерживает развитие и доступность приложения.'**
   String get subscription;
 
   /// No description provided for @subscriptionCoffee.
   ///
-  /// In en, this message translates to:
-  /// **'Buy a Coffee'**
+  /// In ru, this message translates to:
+  /// **'Купить кофе'**
   String get subscriptionCoffee;
 
   /// No description provided for @subscriptionDinner.
   ///
-  /// In en, this message translates to:
-  /// **'Treat to Dinner'**
+  /// In ru, this message translates to:
+  /// **'Угостить ужином'**
   String get subscriptionDinner;
 
   /// No description provided for @subscriptionDonorbox.
   ///
-  /// In en, this message translates to:
-  /// **'Subscribe via Donorbox'**
+  /// In ru, this message translates to:
+  /// **'Подписаться через Donorbox'**
   String get subscriptionDonorbox;
 
   /// No description provided for @subscriptionGithub.
   ///
-  /// In en, this message translates to:
-  /// **'Subscribe via GitHub'**
+  /// In ru, this message translates to:
+  /// **'Подписаться через GitHub'**
   String get subscriptionGithub;
 
   /// No description provided for @subscriptionHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Sponsorship'**
+  /// In ru, this message translates to:
+  /// **'Поддержка проекта'**
   String get subscriptionHeadline;
 
   /// No description provided for @subscriptionInactive.
   ///
-  /// In en, this message translates to:
-  /// **'Purchase Service Unavailable'**
+  /// In ru, this message translates to:
+  /// **'Покупка недоступна'**
   String get subscriptionInactive;
 
   /// No description provided for @subscriptionPatreon.
   ///
-  /// In en, this message translates to:
-  /// **'Subscribe via Patreon'**
+  /// In ru, this message translates to:
+  /// **'Подписаться через Patreon'**
   String get subscriptionPatreon;
 
   /// No description provided for @subscriptionPaypal.
   ///
-  /// In en, this message translates to:
-  /// **'Buy a Coffee (PayPal)'**
+  /// In ru, this message translates to:
+  /// **'Купить кофе (PayPal)'**
   String get subscriptionPaypal;
 
   /// No description provided for @subscriptionTiny.
   ///
-  /// In en, this message translates to:
-  /// **'Give a lucky Coin'**
+  /// In ru, this message translates to:
+  /// **'Подарить счастливую монету'**
   String get subscriptionTiny;
 
   /// No description provided for @subscriptionTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Support (Sponsorship)'**
+  /// In ru, this message translates to:
+  /// **'Поддержать проект'**
   String get subscriptionTooltip;
 
   /// No description provided for @success.
   ///
-  /// In en, this message translates to:
-  /// **'Succeeded'**
+  /// In ru, this message translates to:
+  /// **'Успешно'**
   String get success;
 
   /// No description provided for @summary.
   ///
-  /// In en, this message translates to:
-  /// **'Summary'**
+  /// In ru, this message translates to:
+  /// **'Итог'**
   String get summary;
 
   /// No description provided for @symbol.
   ///
-  /// In en, this message translates to:
-  /// **'Symbol'**
+  /// In ru, this message translates to:
+  /// **'Символ'**
   String get symbol;
 
   /// No description provided for @syncHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Sync Devices'**
+  /// In ru, this message translates to:
+  /// **'Синхронизация устройств'**
   String get syncHeadline;
 
   /// No description provided for @systemMode.
   ///
-  /// In en, this message translates to:
-  /// **'System'**
+  /// In ru, this message translates to:
+  /// **'Системный'**
   String get systemMode;
 
   /// No description provided for @tapToOpen.
   ///
-  /// In en, this message translates to:
-  /// **'Tap to Open'**
+  /// In ru, this message translates to:
+  /// **'Нажмите, чтобы открыть'**
   String get tapToOpen;
 
   /// No description provided for @targetAmount.
   ///
-  /// In en, this message translates to:
-  /// **'Target Amount'**
+  /// In ru, this message translates to:
+  /// **'Целевая сумма'**
   String get targetAmount;
 
   /// No description provided for @termPrivacy.
   ///
-  /// In en, this message translates to:
-  /// **'Privacy Policy'**
+  /// In ru, this message translates to:
+  /// **'Политика конфиденциальности'**
   String get termPrivacy;
 
   /// No description provided for @termUse.
   ///
-  /// In en, this message translates to:
-  /// **'Terms of Use'**
+  /// In ru, this message translates to:
+  /// **'Условия использования'**
   String get termUse;
 
   /// No description provided for @title.
   ///
-  /// In en, this message translates to:
-  /// **'Title'**
+  /// In ru, this message translates to:
+  /// **'Название'**
   String get title;
 
   /// No description provided for @titleAccountTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Enter Account Identifier'**
+  /// In ru, this message translates to:
+  /// **'Введите идентификатор профиля'**
   String get titleAccountTooltip;
 
   /// No description provided for @titleBudgetTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Enter Budget Category Name'**
+  /// In ru, this message translates to:
+  /// **'Введите название категории бюджета'**
   String get titleBudgetTooltip;
 
   /// No description provided for @titleGoal.
   ///
-  /// In en, this message translates to:
-  /// **'Goal'**
+  /// In ru, this message translates to:
+  /// **'Цель'**
   String get titleGoal;
 
   /// No description provided for @titleGoalTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Define Goal Description'**
+  /// In ru, this message translates to:
+  /// **'Укажите описание цели'**
   String get titleGoalTooltip;
 
   /// No description provided for @to.
   ///
-  /// In en, this message translates to:
-  /// **'to'**
+  /// In ru, this message translates to:
+  /// **'в'**
   String get to;
 
   /// No description provided for @total.
   ///
-  /// In en, this message translates to:
-  /// **'total'**
+  /// In ru, this message translates to:
+  /// **'итого'**
   String get total;
 
   /// No description provided for @transactionFile.
   ///
-  /// In en, this message translates to:
-  /// **'Fingrom Transactions Log File (.log)'**
+  /// In ru, this message translates to:
+  /// **'Журнал транзакций Fingrom (.log)'**
   String get transactionFile;
 
   /// No description provided for @transferHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Transfer'**
+  /// In ru, this message translates to:
+  /// **'Перевод'**
   String get transferHeadline;
 
   /// No description provided for @transferTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Set Transfer Details'**
+  /// In ru, this message translates to:
+  /// **'Указать детали перевода'**
   String get transferTooltip;
 
   /// No description provided for @transfersHeadline.
   ///
-  /// In en, this message translates to:
-  /// **'Transfers'**
+  /// In ru, this message translates to:
+  /// **'Переводы'**
   String get transfersHeadline;
 
   /// No description provided for @typeButton.
   ///
-  /// In en, this message translates to:
-  /// **'Button'**
+  /// In ru, this message translates to:
+  /// **'Кнопка'**
   String get typeButton;
 
   /// No description provided for @updateAccountTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Update Account'**
+  /// In ru, this message translates to:
+  /// **'Обновить профиль'**
   String get updateAccountTooltip;
 
   /// No description provided for @updateBillTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Update Bill'**
+  /// In ru, this message translates to:
+  /// **'Обновить операцию'**
   String get updateBillTooltip;
 
   /// No description provided for @updateBudgetTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Update Budget Category'**
+  /// In ru, this message translates to:
+  /// **'Обновить категорию бюджета'**
   String get updateBudgetTooltip;
 
   /// No description provided for @updateGoalTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Update Goal'**
+  /// In ru, this message translates to:
+  /// **'Обновить цель'**
   String get updateGoalTooltip;
 
   /// No description provided for @updatePaymentTooltip.
   ///
-  /// In en, this message translates to:
-  /// **'Update Payment'**
+  /// In ru, this message translates to:
+  /// **'Обновить платёж'**
   String get updatePaymentTooltip;
 
   /// No description provided for @username.
   ///
-  /// In en, this message translates to:
-  /// **'Username (Account)'**
+  /// In ru, this message translates to:
+  /// **'Имя пользователя (профиль)'**
   String get username;
 
   /// No description provided for @uuid.
   ///
-  /// In en, this message translates to:
-  /// **'Unique Transaction Identifier'**
+  /// In ru, this message translates to:
+  /// **'Уникальный идентификатор транзакции'**
   String get uuid;
 
   /// No description provided for @validTillDate.
   ///
-  /// In en, this message translates to:
-  /// **'Valid Till'**
+  /// In ru, this message translates to:
+  /// **'Действительно до'**
   String get validTillDate;
 
   /// No description provided for @webDav.
   ///
-  /// In en, this message translates to:
-  /// **'Web Distributed Authoring and Versioning (WebDav)'**
+  /// In ru, this message translates to:
+  /// **'WebDAV (распределённое управление версиями)'**
   String get webDav;
 
   /// No description provided for @zoomState.
   ///
-  /// In en, this message translates to:
-  /// **'Zoom In / Zoom Out'**
+  /// In ru, this message translates to:
+  /// **'Приблизить / отдалить'**
   String get zoomState;
 }
 
@@ -2136,6 +2138,7 @@ class _AppLocalizationsDelegate
         'pl',
         'pt',
         'ro',
+        'ru',
         'tr',
         'uk',
         'uz',
@@ -2211,6 +2214,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsPt();
     case 'ro':
       return AppLocalizationsRo();
+    case 'ru':
+      return AppLocalizationsRu();
     case 'tr':
       return AppLocalizationsTr();
     case 'uk':

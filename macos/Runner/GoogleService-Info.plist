@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.tercad.fingrom.RunnerTests</string>
+	<string>com.faust.finance.RunnerTests</string>
 	<key>PROJECT_ID</key>
 	<string>fingrom</string>
 	<key>STORAGE_BUCKET</key>

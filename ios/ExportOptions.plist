@@ -6,7 +6,7 @@
     <string>app-store</string>
     <key>provisioningProfiles</key>
 	<dict>
-		<key>com.tercad.fingrom</key>
+		<key>com.faust.finance</key>
 		<string>Fingrom iOS</string>
 	</dict>
 </dict>

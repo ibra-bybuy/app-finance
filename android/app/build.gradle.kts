@@ -5,8 +5,6 @@ import java.io.InputStreamReader
 plugins {
     id("com.android.application")
     // START: FlutterFire Configuration
-    id("com.google.gms.google-services")
-    id("com.google.firebase.crashlytics")
     // END: FlutterFire Configuration
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
@@ -30,7 +28,7 @@ if (keystoreFile.exists()) {
 }
 
 android {
-    namespace = "com.tercad.fingrom"
+    namespace = "com.faust.finance"
     compileSdk = flutter.compileSdkVersion
     // ndkVersion = flutter.ndkVersion
     ndkVersion = "27.0.12077973"
@@ -45,7 +43,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.tercad.fingrom"
+        applicationId = "com.faust.finance"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
@@ -76,8 +74,6 @@ android {
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
-    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
-    implementation("com.google.firebase:firebase-analytics")
 }
 
 flutter {

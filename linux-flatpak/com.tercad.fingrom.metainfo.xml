@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.tercad.fingrom</id>
+  <id>com.faust.finance</id>
   <name>Fingrom</name>
   <developer id="io.github.lyskouski"><name>lyskouski</name></developer>
   <summary>Platform-agnostic financial accounting application for personal finance management</summary>
@@ -31,7 +31,7 @@
   <url type="bugtracker">https://github.com/lyskouski/app-finance/issues</url>
   <url type="translate">https://github.com/lyskouski/app-finance/tree/main/lib/l10n</url>
   <url type="vcs-browser">https://github.com/lyskouski/app-finance</url>
-  <launchable type="desktop-id">com.tercad.fingrom.desktop</launchable>
+  <launchable type="desktop-id">com.faust.finance.desktop</launchable>
   <content_rating type="oars-1.1"/>
   <update_contact>support@tercad.pl</update_contact>
   <branding>
