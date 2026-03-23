@@ -53,7 +53,6 @@ import 'package:app_finance/pages/invoice/invoice_transfer_search_page.dart';
 import 'package:app_finance/pages/invoice/invoice_view_page.dart';
 import 'package:app_finance/pages/metrics/metrics_page.dart';
 import 'package:app_finance/pages/settings/settings_page.dart';
-import 'package:app_finance/pages/start/start_page.dart';
 import 'package:app_finance/pages/subscription/subscription_page.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -171,7 +170,6 @@ class MyAppState extends State<MyApp> {
           AppRoute.metricsRoute => const MetricsPage(),
           AppRoute.metricsSearchRoute => MetricsPage(search: key),
           AppRoute.settingsRoute => const SettingsPage(),
-          AppRoute.startRoute => const StartPage(),
           AppRoute.subscriptionRoute => const SubscriptionPage(),
           _ => const HomePage(),
         };

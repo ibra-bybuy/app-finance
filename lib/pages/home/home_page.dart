@@ -19,7 +19,6 @@ import 'package:app_finance/components/component_recent.dart';
 import 'package:app_finance/components/widgets/bill_ytd_chart.dart';
 import 'package:app_finance/pages/_interfaces/abstract_page_state.dart';
 import 'package:app_finance/pages/home/home_edit_page.dart';
-import 'package:app_finance/pages/start/start_page.dart';
 import 'package:app_finance/design/wrapper/grid_layer.dart';
 import 'package:app_finance/pages/home/widgets/init_tab.dart';
 import 'package:app_finance/design/button/toolbar_button_widget.dart';
@@ -29,9 +28,7 @@ import 'package:app_finance/components/widgets/budget_widget.dart';
 import 'package:app_finance/pages/home/widgets/goal_widget.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -51,34 +48,7 @@ class HomePageState extends AbstractPageState<HomePage> {
     super.initState();
     toExpand = AppPreferences.get(AppPreferences.prefExpand);
     version = AppPreferences.get(AppPreferences.prefVersion) ?? '';
-    PackageInfo.fromPlatform().then((PackageInfo value) {
-      if (version != value.version) {
-        WidgetsBinding.instance.addPostFrameCallback((_) => showModalBottomSheet(
-              context: context,
-              builder: (BuildContext context) => buildReleaseHelper(context, version),
-            ));
-        AppPreferences.set(AppPreferences.prefVersion, value.version);
-      }
-    });
   }
-
-  Widget buildReleaseHelper(BuildContext context, String version) => buildHelper(
-        context,
-        type: 'upgrade',
-        builder: (context, snapshot) {
-          if (snapshot.hasData) {
-            String data = snapshot.data!;
-            if (version.isNotEmpty) {
-              data = data.split('### $version')[0];
-            }
-            return Directionality(
-              textDirection: AppDesign.getAlignment<TextDirection>(),
-              child: Markdown(data: data),
-            );
-          }
-          return Container();
-        },
-      );
 
   @override
   String getTitle() => AppLocale.labels.appTitle;
@@ -163,9 +133,6 @@ class HomePageState extends AbstractPageState<HomePage> {
     Provider.of<AppLocale>(context, listen: false).updateState(context);
     if (isEditMode) {
       return HomeEditPage(callback: () => setState(() => isEditMode = false));
-    }
-    if (AppPreferences.get(AppPreferences.prefPrivacyPolicy) == null) {
-      return const StartPage();
     }
     return Consumer<AppData>(builder: (context, appState, _) {
       state = appState;
