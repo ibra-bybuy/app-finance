@@ -5,7 +5,7 @@ description: Open-source platform-agnostic financial accounting application
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # Generated, do not manually change `version`
-version: 1.0.2+3
+version: 1.1.0+4
 
 environment:
   sdk: ">=3.0.5 <4.0.0"
@@ -24,39 +24,14 @@ dependencies:
 
   # CupertinoIcons class for iOS style icons
   cupertino_icons: ^1.0.2
-  adaptive_breakpoints: ^0.1.6
-  google_fonts: ^6.3.0
   intl: ^0.20.2
-  flutter_colorpicker: ^1.0.3
   uuid: ^4.5.1
   provider: ^6.0.5
-  month_picker_dialog: ^6.0.3
   shared_preferences: ^2.2.2
-  path_provider: ^2.0.15
   crypto: ^3.0.3
   # Freeze encrypt
   encrypt: 5.0.1
-  flutter_markdown: ^0.7.1
-  package_info_plus: ^8.0.0
-  url_launcher: ^6.1.12
-  webdav_client: ^1.2.1
-  file_picker: ^9.0.0
   csv: ^6.0.0
-  peerdart: ^0.5.6
-  flutter_grid_layout: ^1.1.1
-  flutter_svg: ^2.0.7
-  flutter_swipe_action_cell: ^3.1.2
-  flutter_currency_picker: ^1.7.0
-  in_app_purchase: ^3.1.11
-  dart_intl_search: ^1.2.3
-  idb_shim: ^2.6.1+7
-  excel: ^4.0.6
-  home_widget: ^0.7.0
-  custom_date_range_picker: ^1.2.0
-  flutter_solidart: ^2.6.1
-
-dependency_overrides:
-  flutter_webrtc: 0.12.10
 
 dev_dependencies:
   flutter_test:
@@ -74,9 +49,6 @@ dev_dependencies:
   platform: ^3.1.0
   msix: ^3.16.4
   yaml: ^3.1.2
-  dart_class_wrapper: ^1.0.1
-  flutter_gherkin_generator: ^1.0.5
-  flutter_gherkin_wrapper: ^1.0.5
 
 flutter:
   generate: true
@@ -90,7 +62,6 @@ flutter:
   assets:
     - assets/fonts/
     - assets/images/
-    - assets/l10n/
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   fonts:
